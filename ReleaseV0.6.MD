@@ -3,7 +3,7 @@
 DataFoundry（域名：https://lab.dataos.io）
 
 ##CLI客户端
-https://dev.dataos.io:8443
+oc login https://dev.dataos.io:8443
  
 ##账号
 DataFoundry已进入内测阶段，有账号的同事可登陆https://lab.dataos.io 进行试用；
