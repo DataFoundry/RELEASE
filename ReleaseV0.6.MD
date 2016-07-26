@@ -12,8 +12,11 @@ DataFoundry已进入内测阶段，有账号的同事可登陆https://lab.dataos
 ##客户端下载　
 
 https://s3.cn-north-1.amazonaws.com.cn/datafoundry/client/linux-32bit.tar.gz
+
 https://s3.cn-north-1.amazonaws.com.cn/datafoundry/client/linux-64bit.tar.gz
+
 https://s3.cn-north-1.amazonaws.com.cn/datafoundry/client/mac.zip
+
 https://s3.cn-north-1.amazonaws.com.cn/datafoundry/client/windows.zip
 
 ##后端支持服务 
