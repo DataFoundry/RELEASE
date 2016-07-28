@@ -20,6 +20,35 @@ https://s3.cn-north-1.amazonaws.com.cn/datafoundry/client/mac.zip
 
 https://s3.cn-north-1.amazonaws.com.cn/datafoundry/client/windows.zip
 
+##客户端命令变更
+- oc new-backingserviceinstance命令更新为oc new-instance，支持创建后端服务实例以及用户自定义后端服务实例。
+可使用oc new-instance -h查看使用帮助：
+
+```
+Create a new BackingService instance
+
+This command will try to create a backing service instance.
+
+Usage:
+  oc new-instance NAME [options]
+
+Examples:
+# Create a backingservice instance via backingservice
+  $ oc new-instance mysql-instance --service=myslql --plan=shared
+
+  # Create a user-provided-service
+  $ oc new-instance redis-instance -p host=redis.somedomain.com -p port=6379 -p password=H3IIOw0R1D
+
+Options:
+  -p, --parameters=[]: Specify key value pairs of env variables for User-Provided-Service.
+      --plan='': BackingService Plan Name
+      --service='': BackingService Name
+
+Use "oc options" for a list of global command-line options (applies to all commands).
+```
+
+- 系统后端服务实例以及用户自定义后端服务实例与服务绑定操作一致，使用oc bind操作。可用oc bind --h 查看使用帮助。
+
 ##新增功能
 编号 | 一级功能 | 二级功能 | 三级功能 
 ----- | ----- | ----- | ----- 
