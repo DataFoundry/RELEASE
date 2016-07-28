@@ -7,6 +7,7 @@ oc login https://dev.dataos.io:8443
  
 ##账号
 DataFoundry已进入内测阶段，有账号的同事可登陆https://lab.dataos.io 进行试用；
+
 如需账号申请，请发以下内容邮件至LDP运营部的李靖，邮箱：lijing9@asiainfo.com 
 
 ##客户端下载　
@@ -30,8 +31,7 @@ https://s3.cn-north-1.amazonaws.com.cn/datafoundry/client/windows.zip
 6	 |  |  | 成员邀请
 7	 |  | 组织信息
 8	 |  | 用户信息
-9	 |  | 套餐管理
-10 | 信息中心
+9 | 信息中心
 
 ##后端支持服务 
 
